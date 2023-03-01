@@ -1,10 +1,44 @@
 //Variables
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
 
 //Fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 //Reset CSS
+* {
+    box-sizing: border-box;
+}
 
-// MOBILE
+html {
+    height: 100vh;
+}
 
-// DESKTOP
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: $lightGray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+figcaption,
+main {
+    margin: 0;
+    padding: 0;
+}
+
+// MOBILE (375px)
+
+// DESKTOP (>=1440 px)
 @media screen and (min-width:1440px) {}
